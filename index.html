@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3c5ff61243.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name"> <span style="color: #ff004f;">V</span>ansh</h1>
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Vansh</span><br>Garg from India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!----------- about ---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="" ">
+                </div>
+                <div class=" about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an undergrad student pursuing my B.Tech in Electrical from Netaji Subhash University of
+                        Technology. I am very passionate about exploring and learning new technologies related to
+                        digital world. Currently building my foundation in DSA and Web'd skills.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2027</span><br>Graduation in B.Tech from Netaji Subahsh University of Technology
+                            </li><br>
+                            <li><span>2023</span><br>Schooling</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aug,2023 - Nov,2024</span><br>NSS Volunteership</li><br>
+                            <li><span>2023 - Current</span><br>ARES Member</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Departmental Rank 1</span><br> Achieved departmental first rank and second rank in
+                                the first year of college</li><br>
+                            <li><span>Top Performer in NPTEL Course</span><br> In top of the course ”Design Thinking- A
+                                Primer” and "The Science of Happiness and Weelbeing”</li><br>
+                            <li><span>Rank 1 in School</span><br> Awarded a scholarship of 21,000 for securing the first
+                                rank in 12th grade</li><br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------skills------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Languages</h2>
+                    <p>Specialized in Java and proficient in various programming languages such as Python, JavaScript,
+                        and C++.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Frameworks</h2>
+                    <p>Skilled in front-end frameworks like HTML, CSS, and JavaScript to create responsive and dynamic
+                        websites</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Soft Skills</h2>
+                    <p>Demonstrated leadership in team management, event coordination, and public speaking, with a focus
+                        on time efficiency</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------Projects----------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3> Simon Says Game</h3>
+                        <p> Developed a browser-based Simon Says game, which challenges players to replicate
+                            increasingly complex sequences of flashing
+                            colors.</p>
+                        <a href="https://vanshgarg123.github.io/Simon-Says-Game/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Sudoku Solver</h3>
+                        <p>Created website that solves soduko according to the given input</p>
+                        <a href="https://vanshgarg123.github.io/Sudoku-Solver/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>PortFolio Website</h3>
+                        <p>Created a Personal portfolio Website</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ----------Contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>gargvansh006@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8368416613</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/VanshGarg556351?t=LPp9Ciz2n8lUmOFPYP-X6w&s=08"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/vanshgarg006/?hl=en"><i
+                                class="fa-brands fa-square-instagram"></i></i></a>
+                        <a href="https://www.linkedin.com/in/vansh-garg-7ba53128b/"><i
+                                class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="images/Vansh Garg (Resume).pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name " required">
+                        <input type="email" name="Email" placeholder="Your Email" required">
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Vansh <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbys7STwVkaxw8c-XLNNWBZcCWj0kLE7M8Hx_Gy09S_GNxb7gCEndY_uuPLACvN-fVEh/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.querySelector("#msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
